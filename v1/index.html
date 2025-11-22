@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PORTFOLIO WEBSITE</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta property="og:title" content="PORTFOLIO WEBSITE">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button id="menu-toggle">☰</button>
+
+    <header>
+        <h1>YOUR NAME GOES HERE</h1>
+        <p class="bio">Your bio goes here. </p>
+    </header>
+
+    <nav>
+        <ul> <!-- Interface icons from https://icons8.com -->
+            <li><a href="index.html"><img src="images/home.png" height="16px"></a></li>
+            <li><a href="#cat1">Category 1</a></li>
+            <li><a href="#cat2">Category 2</a></li>
+            <li><a href="#cat3">Category 3</a></li>
+            <li><a href="#cat4">Category 4</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="cat1" class="section">
+            <h2>Category 1</h2>
+            <div class="grid">
+                <!-- YOUR WORK SHOULD GO IN EACH OF THESE `div class="item"` -->
+                <!-- Feel free to create as many labels as you want :) -->
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label1')">Label1</span>
+                        <span class="tag" onclick="toggleTag(this, 'label2')">Label2</span>
+                        <span class="tag" onclick="toggleTag(this, 'label3')">Label3</span>
+                        <span class="tag" onclick="toggleTag(this, 'label4')">Label4</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label5</span>
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label6</span>
+                        <span class="tag" onclick="toggleTag(this, 'label7')">Label7</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label1')">Label1</span>
+                        <span class="tag" onclick="toggleTag(this, 'label2')">Label2</span>
+                        <span class="tag" onclick="toggleTag(this, 'label3')">Label3</span>
+                        <span class="tag" onclick="toggleTag(this, 'label4')">Label4</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label5</span>
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label6</span>
+                        <span class="tag" onclick="toggleTag(this, 'label7')">Label7</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cat2" class="section">
+            <h2>Category 2</h2>
+            <div class="grid">
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label1')">Label1</span>
+                        <span class="tag" onclick="toggleTag(this, 'label2')">Label2</span>
+                        <span class="tag" onclick="toggleTag(this, 'label3')">Label3</span>
+                        <span class="tag" onclick="toggleTag(this, 'label4')">Label4</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label5</span>
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label6</span>
+                        <span class="tag" onclick="toggleTag(this, 'label7')">Label7</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label5</span>
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label6</span>
+                        <span class="tag" onclick="toggleTag(this, 'label7')">Label7</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label1')">Label1</span>
+                        <span class="tag" onclick="toggleTag(this, 'label2')">Label2</span>
+                        <span class="tag" onclick="toggleTag(this, 'label3')">Label3</span>
+                        <span class="tag" onclick="toggleTag(this, 'label4')">Label4</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label5</span>
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label6</span>
+                        <span class="tag" onclick="toggleTag(this, 'label7')">Label7</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cat3" class="section">
+            <h2>Category 3</h2>
+            <div class="grid">
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label1')">Label1</span>
+                        <span class="tag" onclick="toggleTag(this, 'label2')">Label2</span>
+                        <span class="tag" onclick="toggleTag(this, 'label3')">Label3</span>
+                        <span class="tag" onclick="toggleTag(this, 'label4')">Label4</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label5</span>
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label6</span>
+                        <span class="tag" onclick="toggleTag(this, 'label7')">Label7</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cat4" class="section">
+            <h2>Category 4</h2>
+            <div class="grid">
+                                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label1')">Label1</span>
+                        <span class="tag" onclick="toggleTag(this, 'label2')">Label2</span>
+                        <span class="tag" onclick="toggleTag(this, 'label3')">Label3</span>
+                        <span class="tag" onclick="toggleTag(this, 'label4')">Label4</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label1')">Label1</span>
+                        <span class="tag" onclick="toggleTag(this, 'label2')">Label2</span>
+                        <span class="tag" onclick="toggleTag(this, 'label3')">Label3</span>
+                        <span class="tag" onclick="toggleTag(this, 'label4')">Label4</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="_blank"><img src="images/placeholder.jpg" alt=""></a>
+                    <h3><a href="#" target="_blank">Your Headline Goes Here</a></h3>
+                    <p>A short description or summary of your report goes here.</p>
+                    <div class="tags">
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label5</span>
+                        <span class="tag" onclick="toggleTag(this, 'label5')">Label6</span>
+                        <span class="tag" onclick="toggleTag(this, 'label7')">Label7</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="mailto:email@email.com"><img src="images/email.png" height="28px" width="28px"></a>
+            <a href=# target="_blank"><img src="images/linkedin.png" height="24px" width="24px"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
